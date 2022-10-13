@@ -17,7 +17,7 @@ function countAttendence(str) {
 }
 
 console.log(countAttendence("Hadir,Sakit,Sakit,Hadir"))
-// output: Hadir: 2, Izin: 0, Sakit: 2, Total: 5
+// output: Hadir: 2, Izin: 0, Sakit: 2, Total: 4
 ```
 
 ## 3 
