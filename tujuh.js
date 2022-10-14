@@ -1,7 +1,8 @@
 function squareOf(arr) {
-  arr.forEach(function (square, index, array) {
-    array[index] = square * square;
+  const result = arr.map(function (square) {
+    return Math.pow(square, 2);
   });
+  return result;
 }
 
 console.log(squareOf([1, 2, 3]));
